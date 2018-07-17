@@ -92,6 +92,28 @@ class Window(QMainWindow):
                 background: #0a0a0a;
                 color: #dedede;
             }
+
+            QScrollBar:vertical {
+                border: 0px solid #000000;
+                background: black;
+                width:10px;
+                margin: 0px 0px 0px 0px;
+            }
+            QScrollBar::handle:vertical {
+                background: #000000;
+                min-height: 20px;
+            }
+
+            QScrollBar:horizontal {
+                border: 0px solid #000000;
+                background: black;
+                height:10px;
+                margin: 0px 0px 0px 0px;
+            }
+            QScrollBar::handle:horizontal {
+                background: #000000;
+                min-width: 20px;
+            }
         """)
 
         self.channel_list = QListWidget(self)
@@ -107,6 +129,26 @@ class Window(QMainWindow):
             {
                 background: #0a0a0a;
                 color: #dedede;
+            }
+            QScrollBar:vertical {
+                border: 0px solid #000000;
+                background: black;
+                width:10px;
+                margin: 0px 0px 0px 0px;
+            }
+            QScrollBar::handle:vertical {
+                background: #000000;
+                min-height: 20px;
+            }
+            QScrollBar:horizontal {
+                border: 0px solid #000000;
+                background: black;
+                height:10px;
+                margin: 0px 0px 0px 0px;
+            }
+            QScrollBar::handle:horizontal {
+                background: #000000;
+                min-width: 20px;
             }
         """)
 
@@ -125,6 +167,26 @@ class Window(QMainWindow):
                 background: #0a0a0a;
                 color: #dedede;
             }
+            QScrollBar:vertical {
+                border: 0px solid #000000;
+                background: black;
+                width:10px;
+                margin: 0px 0px 0px 0px;
+            }
+            QScrollBar::handle:vertical {
+                background: #000000;
+                min-height: 20px;
+            }
+            QScrollBar:horizontal {
+                border: 0px solid #000000;
+                background: black;
+                height:10px;
+                margin: 0px 0px 0px 0px;
+            }
+            QScrollBar::handle:horizontal {
+                background: #000000;
+                min-width: 20px;
+            }
         """)
 
 
@@ -142,6 +204,26 @@ class Window(QMainWindow):
             {
                 background: #0a0a0a;
                 color: #dedede;
+            }
+            QScrollBar:vertical {
+                border: 0px solid #000000;
+                background: black;
+                width:10px;
+                margin: 0px 0px 0px 0px;
+            }
+            QScrollBar::handle:vertical {
+                background: #000000;
+                min-height: 20px;
+            }
+            QScrollBar:horizontal {
+                border: 0px solid #000000;
+                background: black;
+                height:10px;
+                margin: 0px 0px 0px 0px;
+            }
+            QScrollBar::handle:horizontal {
+                background: #000000;
+                min-width: 20px;
             }
         """)
 
