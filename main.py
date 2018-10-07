@@ -1,10 +1,12 @@
-import sys
-from PyQt4 import QtGui, QtCore
-import discord
-import gui
-from threading import Thread
 import asyncio
 import time
+import sys
+from threading import Thread
+
+import discord
+import gui
+from PyQt4 import QtGui, QtCore
+
 
 client = discord.AutoShardedClient()
 
